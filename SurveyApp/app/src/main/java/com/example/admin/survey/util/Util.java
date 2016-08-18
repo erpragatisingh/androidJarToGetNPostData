@@ -8,7 +8,7 @@ import android.widget.TextView;
 public class Util {
 
 
-    public static final void nullCheckData(String val, TextView textView) {
+    public static final void nullCheckData(final String val, final TextView textView) {
         if (null != val && null != textView) {
             textView.setText(val);
         }
