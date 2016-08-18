@@ -1,4 +1,4 @@
-# androidJarToGetNPostData
+# android Jar To Get Data
 
 1>This app will get some some data of question and multiple choice answer from sdk (i.e. i have to make it separate from app) and
 2> then this data  will display in app (Question with four option) and on last question there is button of submit.
