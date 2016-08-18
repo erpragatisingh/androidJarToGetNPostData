@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+       style="@style/textview_style"
+        android:padding="20dp"
+        android:textSize="@dimen/headingSize"
+
+        android:id="@+id/tv_qus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <CheckBox
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:id="@+id/ch_ans_one"
+        android:layout_width="match_parent"
+        android:text="@string/text_result"
+        android:layout_height="match_parent" />
+    <CheckBox
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:id="@+id/ch_ans_two"
+        android:layout_width="match_parent"
+        android:text="@string/text_result"
+        android:layout_height="match_parent" />
+    <CheckBox
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:id="@+id/ch_ans_three"
+        android:layout_width="match_parent"
+        android:text="@string/text_result"
+        android:layout_height="match_parent" />
+    <CheckBox
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:id="@+id/ch_ans_four"
+        android:layout_width="match_parent"
+        android:text="@string/text_result"
+
+    android:layout_height="match_parent" />
+</LinearLayout>
+
+</LinearLayout>

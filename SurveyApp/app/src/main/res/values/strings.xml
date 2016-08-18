@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SURVEY</string>
+    <string name="button_finish">FINISH</string>
+    <string name="button_next">NEXT</string>
+    <string name="text_result">Result :- Not Available</string>
+    <string name="result">Result :- </string>
+
+
+
+</resources>
