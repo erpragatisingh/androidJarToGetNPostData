@@ -1,5 +1,6 @@
 package com.example.admin.survey.activity;
 
+import android.os.Build;
 import android.os.Bundle;
 
 
@@ -25,6 +26,7 @@ public final class ResultActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
+
        // to enable back option for activity
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -35,14 +37,12 @@ public final class ResultActivity extends BaseActivity {
     }
 
     private void initViewAndSetData() {
-        SurveyResponseVO surveyResult= new Gson().fromJson(SurveyData.surveyResponseData(), SurveyResponseVO.class);
+        SurveyResponseVO surveyResult= new Gson().fromJson(SurveyData.getSurveyResponseData(), SurveyResponseVO.class);
 
         Util.nullCheckData(getString(R.string.result)+surveyResult.getAnswer_one(),(TextView) findViewById(R.id.tv_result_first));
         Util.nullCheckData(getString(R.string.result)+surveyResult.getAnswer_two(),(TextView) findViewById(R.id.tv_result_second));
         Util.nullCheckData(getString(R.string.result)+surveyResult.getAnswer_three(),(TextView) findViewById(R.id.tv_result_third));
         Util.nullCheckData(getString(R.string.result)+surveyResult.getAnswer_four(),(TextView) findViewById(R.id.tv_result_fourth));
-
-
 
     }
 

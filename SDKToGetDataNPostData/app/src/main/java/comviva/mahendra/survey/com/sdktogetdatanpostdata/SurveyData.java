@@ -4,6 +4,8 @@ import android.app.Activity;
 
 import com.android.volley.VolleyError;
 
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import comviva.mahendra.survey.com.sdktogetdatanpostdata.net.VolleyInterface;
@@ -20,9 +22,21 @@ public final class SurveyData  implements VolleyInterface{
      return jsonData;
  }
 
- public static final String surveyResponseData(){
+ public static final String getSurveyResponseData(){
 
      return  responseData;
+ }
+ public static final void sendResponseData(Map<String, List<String>> mapdata){
+
+     if(null!=mapdata) {
+         Map<String, List<String>> concurrentHashMap = new ConcurrentHashMap<>();
+         concurrentHashMap.putAll(mapdata);
+
+         for (String key : concurrentHashMap.keySet()) {
+             System.out.println(key + " " + concurrentHashMap.get(key));
+         }
+
+     }
  }
 
     @Override

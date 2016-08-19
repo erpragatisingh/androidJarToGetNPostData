@@ -5,6 +5,7 @@
     <string name="text_result">Result :- Not Available</string>
     <string name="result">Result :- </string>
 
+    <string name="error">Please Select Values</string>
 
 
 </resources>
