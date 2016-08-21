@@ -1,6 +1,6 @@
 package comviva.mahendra.survey.com.sdktogetdatanpostdata;
 
-import android.app.Activity;
+
 
 import com.android.volley.VolleyError;
 
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import comviva.mahendra.survey.com.sdktogetdatanpostdata.net.VolleyInterface;
-import comviva.mahendra.survey.com.sdktogetdatanpostdata.util.MCUtil;
+
 
 /**
  * Created by pragati on 8/18/16.

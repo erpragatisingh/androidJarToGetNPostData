@@ -17,4 +17,17 @@
 }
 -keep class comviva.mahendra.survey.com.sdktogetdatanpostdata.*{
    public private *;
+  }
+
+-keep class comviva.mahendra.survey.com.sdktogetdatanpostdata.model.*{
+   public private *;
+}
+-keep class comviva.mahendra.survey.com.sdktogetdatanpostdata.activity.*{
+   public private *;
+}
+-keep class comviva.mahendra.survey.com.sdktogetdatanpostdata.adapter.*{
+   public private *;
+}
+-keep class comviva.mahendra.survey.com.sdktogetdatanpostdata.view.*{
+   public private *;
 }

@@ -27,6 +27,13 @@
             android:screenOrientation="portrait"
             ></activity>
 
+
+
+        <activity android:name="comviva.mahendra.survey.com.sdktogetdatanpostdata.MainActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+
     </application>
 
 </manifest>

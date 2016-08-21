@@ -75,7 +75,8 @@ public final class MainActivity extends BaseActivity implements View.OnClickList
                 // Collect selected value
                 collectResult();
                 // On Finish click goto Result Screen
-                startActivity(new Intent(MainActivity.this,ResultActivity.class));
+               // startActivity(new Intent(MainActivity.this,ResultActivity.class));
+                startActivity(new Intent(MainActivity.this,comviva.mahendra.survey.com.sdktogetdatanpostdata.MainActivity.class));
                 // send all collected data to SDK
                 SurveyData.sendResponseData(answerHashMap);
         }

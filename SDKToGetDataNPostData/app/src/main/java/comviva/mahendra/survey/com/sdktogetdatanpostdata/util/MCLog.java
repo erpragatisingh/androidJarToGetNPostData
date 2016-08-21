@@ -8,7 +8,7 @@ package comviva.mahendra.survey.com.sdktogetdatanpostdata.util;
 	|_|   |_|  \__,_|\__, |\__,_|\__|_| |____/|_|_| |_|\__, |_| |_|
                      |___/                             |___/
  *
- *  Copyright (C) 2013 The Android Open Source Project
+ *  Copyright (C) 2016 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ package comviva.mahendra.survey.com.sdktogetdatanpostdata.util;
  */
 import android.support.annotation.NonNull;
 import android.util.Log;
-// custom log file
+
 public class MCLog {
 
     @NonNull
