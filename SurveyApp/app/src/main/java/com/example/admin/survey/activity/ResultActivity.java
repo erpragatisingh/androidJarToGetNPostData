@@ -28,7 +28,7 @@ public final class ResultActivity extends BaseActivity {
         setContentView(R.layout.activity_result);
 
        // to enable back option for activity
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setUpActionBar();
 
 //  initalization of views and set data to views
 
@@ -47,6 +47,11 @@ public final class ResultActivity extends BaseActivity {
     }
 
 
-
+private void setUpActionBar() {
+        // Make sure we're running on Honeycomb or higher to use ActionBar APIs
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+    }
 
 }
