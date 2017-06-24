@@ -1,4 +1,4 @@
-# android Jar To Get Data
+# android Jar To Get Data  @https://www.mahindracomviva.com/
 
 1>This app will get some data of question and multiple choice answer from sdk (i.e. i have to make it separate from app) and
 2> then this data  will display in app (Question with four option) and on last question there is button of submit.
@@ -45,3 +45,5 @@ in Manifest file.
  compile 'com.google.code.gson:gson:2.3.1'
  compile files('libs/surveySDK.jar')
 
+
+https://www.mahindracomviva.com/
